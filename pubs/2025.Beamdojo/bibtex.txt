@@ -1,0 +1,9 @@
+@misc{wang2025beamdojolearningagilehumanoid,
+      title={BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds}, 
+      author={Huayi Wang and Zirui Wang and Junli Ren and Qingwei Ben and Tao Huang and Weinan Zhang and Jiangmiao Pang},
+      year={2025},
+      eprint={2502.10363},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2502.10363}, 
+}
