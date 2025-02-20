@@ -1,0 +1,8 @@
+@misc{long2024learninghumanoidlocomotionperceptive,
+      title={Learning Humanoid Locomotion with Perceptive Internal Model}, 
+      author={Junfeng Long and Junli Ren and Moji Shi and Zirui Wang and Tao Huang and Ping Luo and Jiangmiao Pang},
+      year={2024},
+      eprint={2411.14386},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+}
