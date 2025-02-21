@@ -1,0 +1,9 @@
+@misc{ren2025vbcomlearningvisionblindcomposite,
+      title={VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception}, 
+      author={Junli Ren and Tao Huang and Huayi Wang and Zirui Wang and Qingwei Ben and Jiangmiao Pang and Ping Luo},
+      year={2025},
+      eprint={2502.14814},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2502.14814}, 
+}
