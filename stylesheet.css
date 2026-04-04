@@ -142,6 +142,93 @@ name {
   font-size: 25px;
 }
 
+.intro-copy {
+  line-height: 1.75;
+}
+
+.intro-copy p {
+  margin: 0 0 16px 0;
+}
+
+.intro-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-topics {
+  margin-top: 6px;
+}
+
+.intro-topic-label {
+  font-weight: 700;
+  color: #234f7f;
+  margin-right: 8px;
+}
+
+.intro-topic-tags {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.topic-tag {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #edf4fb;
+  color: #2d6daf;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.affiliation-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 4px 0 14px 0;
+}
+
+.affiliation-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 118px;
+  height: 118px;
+  padding: 0;
+}
+
+.affiliation-link:hover {
+  opacity: 0.85;
+}
+
+.affiliation-logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .affiliation-strip {
+    gap: 18px;
+  }
+
+  .affiliation-link {
+    width: 96px;
+    height: 96px;
+  }
+
+  .affiliation-logo {
+    width: 82px;
+    height: 82px;
+  }
+}
+
 .one {
   width: 300px;
   height: 200px;

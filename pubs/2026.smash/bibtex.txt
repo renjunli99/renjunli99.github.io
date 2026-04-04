@@ -1,0 +1,6 @@
+@article{ren2026smash,
+  title   = {SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision},
+  author  = {Junli Ren and Yinghui Li and Kai Zhang and Penglin Fu and Haoran Jiang and Yixuan Pan and Guangjun Zeng and Tao Huang and Weizhong Guo and Peng Lu and Tianyu Li and Jingbo Wang and Li Chen and Hongyang Li and Ping Luo},
+  journal = {arXiv preprint arXiv:2604.01158},
+  year    = {2026},
+}
