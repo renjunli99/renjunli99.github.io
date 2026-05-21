@@ -142,6 +142,37 @@ name {
   font-size: 25px;
 }
 
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.profile-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #edf4fb;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.profile-icon-link:hover,
+.profile-icon-link:focus {
+  background: #f8efe6;
+  transform: translateY(-1px);
+}
+
+.profile-icon {
+  display: block;
+  width: 19px;
+  height: 19px;
+}
+
 .intro-copy {
   line-height: 1.75;
 }
