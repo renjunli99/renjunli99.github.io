@@ -1,5 +1,0 @@
-  @article{huang2025adaptive,
-    title={Towards Adaptable Humanoid Control via Adaptive Motion Tracking},
-    author={Huang, Tao and Wang, Huayi and Ren, Junli and Yin, Kangning and Wang, Zirui and Chen, Xiao and Jia, Feiyu and Zhang, Wentao and Long, Jungfeng and Wang, Jingbo and Pang, Jiangmiao},
-    year={2025}
-  }

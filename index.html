@@ -1,389 +1,95 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Junli Ren</title>
-
-    <meta name="author" content="Junli Ren">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="images/Personal/ico.jpeg">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Junli Ren">
+  <meta name="description" content="Junli Ren — humanoid robotics, whole-body control, and reinforcement learning.">
+  <title>Junli Ren · Humanoid Robotics</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" type="image/x-icon" href="images/Personal/ico.jpeg">
 </head>
-
 <body>
-    <table
-        style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-            <tr style="padding:0px">
-                <td style="padding:0px">
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr style="padding:0px">
-                                <td style="padding:2.0%;width:60%;vertical-align:middle">
-                                    <div class="intro-copy">
-                                        <p>Hello there! I am a second-year PhD student at HKU (the University of Hong Kong), advised by <a href="http://luoping.me/" target="_blank">Prof. Ping Luo</a>.</p>
-                                        <p>From February 2024 to October 2025, I worked as a research intern with the Humanoid Research team at Shanghai AI Lab, where I was fortunate to work with <a href="https://oceanpang.github.io/" target="_blank">Dr. Jiangmiao Pang</a> and <a href="https://wangjingbo1219.github.io/" target="_blank">Dr. Jingbo Wang</a>.</p>
-                                        <p>I received both my M.Eng. and B.Eng. degrees from Tsinghua University under the supervision of <a href="http://web.ee.tsinghua.edu.cn/wangguijin/en/index.htm" target="_blank">Prof. Guijin Wang</a>.</p>
-                                        <p class="intro-topics">
-                                            <span class="intro-topic-label">Research interests:</span>
-                                            <span class="intro-topic-tags">
-                                                <span class="topic-tag">Whole-body control</span>
-                                                <span class="topic-tag">Reinforcement learning</span>
-                                                <span class="topic-tag">Human-object interaction</span>
-                                            </span>
-                                        </p>
-                                        <p>If you are interested in any of these topics, or would simply like to chat, feel free to drop me an <a href="mailto:junlir@connect.hku.hk">email</a>.</p>
-                                    </div>
-                                </td>
-                                <td style="padding:6.0%;width:40%;vertical-align:middle">
-                                    <a href="images/Personal/rjl.jpg"><img style="width:100%;max-width:100%"
-                                            alt="profile photo" src="images/Personal/rjl.jpg" class="hoverZoomLink"></a>
-                                    <p style="text-align:center">
-                                        <name> Junli Ren「任峻立」</name>
-                                    </p>
-                                    <div class="profile-links">
-                                        <a class="profile-icon-link" href="https://scholar.google.com/citations?user=KxfPuXIAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
-                                            <img class="profile-icon" src="images/icons/google-scholar.svg" alt="">
-                                        </a>
-                                        <a class="profile-icon-link" href="https://x.com/junli_r84995" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">
-                                            <img class="profile-icon" src="images/icons/x.svg" alt="">
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-	                    </table>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Humanoid robotics · Whole-body control· Reinforcement learning</p>
+        <h1>Junli Ren <span>任峻立</span></h1>
+        <p class="intro-paragraph current-status">I am a final-year PhD student at <a href="https://www.hku.hk/">HKU MMLab</a>, advised by <a href="http://luoping.me/">Prof. Ping Luo</a>. My research focuses on whole-body control, reinforcement learning, and human–object interaction. I am currently visiting <a href="https://bair.berkeley.edu/">BAIR at UC Berkeley</a> under the supervision of <a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Prof. Masayoshi Tomizuka</a>.</p>
+        <p class="intro-paragraph past-status">Previously, I was a research intern with the Humanoid Research team at <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a>, working with <a href="https://oceanpang.github.io/">Dr. Jiangmiao Pang</a> and <a href="https://wangjingbo1219.github.io/">Dr. Jingbo Wang</a>. I received my M.Eng. and B.Eng. from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> under <a href="http://web.ee.tsinghua.edu.cn/wangguijin/en/index.htm">Prof. Guijin Wang</a>, where I also interned in Bytedance and Tsinghua AIR.</p>
+        <div class="hero-links">
+          <a class="button primary" href="mailto:junlir@connect.hku.hk">Email</a>
+          <a class="button" href="https://scholar.google.com/citations?user=KxfPuXIAAAAJ&amp;hl=en">Google Scholar</a>
+          <a class="button" href="https://x.com/junli_r84995">X / Twitter</a>
+          <a class="button" href="https://www.linkedin.com/in/%E5%B3%BB%E7%AB%8B-%E4%BB%BB-276940318/">LinkedIn</a>
+          <button class="button" type="button" onclick="document.getElementById('wechat-dialog').showModal()">WeChat</button>
+        </div>
+        <div class="motion-strip" id="research" aria-label="Research in motion">
+          <a href="https://mmlab.hk/Smash/"><img src="pubs/2026.smash/preview.gif" alt="SMASH humanoid executing a whole-body table-tennis strike"><span>SMASH</span></a>
+          <a href="https://humanoid-goalkeeper.github.io/Goalkeeper/"><img src="pubs/2025.goalkeeper/preview.gif" alt="Humanoid goalkeeper intercepting a ball"><span>Goalkeeper</span></a>
+          <a href="https://junfeng-long.github.io/PIM/"><img src="pubs/2024.PIM/preview.gif" alt="Humanoid traversing challenging terrain"><span>PIM</span></a>
+          <a href="https://why618188.github.io/beamdojo/"><img src="pubs/2025.Beamdojo/preview.gif" alt="BeamDojo humanoid traversing sparse footholds"><span>BeamDojo</span></a>
+          <a href="https://taohuang13.github.io/humanoid-standingup.github.io/"><img src="pubs/2025.HOST/preview.gif" alt="HoST humanoid standing up across diverse postures"><span>HoST</span></a>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <img src="images/Personal/rjl-headshot.webp" alt="Portrait of Junli Ren" width="702" height="720">
+        <div><h2>Junli Ren <small>任峻立</small></h2><p>HKU · MMLab</p></div>
+        <div class="affiliations"><img src="images/logos/HK_University_Logo.png" alt="HKU"><img src="images/logos/Tsinghua_University_Logo.png" alt="Tsinghua University"><img src="images/logos/UC_Berkeley_seal.svg" alt="UC Berkeley"></div>
+      </aside>
+    </section>
 
-	                    <table
-	                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-	                        <tbody>
-	                            <tr>
-	                                <td style="padding:0 20px 4px 20px;width:100%;vertical-align:middle">
-	                                    <div class="affiliation-strip">
-	                                        <a class="affiliation-link" href="https://www.hku.hk/" target="_blank">
-	                                            <img class="affiliation-logo" src="images/logos/HK_University_Logo.png" alt="The University of Hong Kong logo">
-	                                        </a>
-	                                        <a class="affiliation-link" href="https://www.tsinghua.edu.cn/en/" target="_blank">
-	                                            <img class="affiliation-logo" src="images/logos/Tsinghua_University_Logo.png" alt="Tsinghua University logo">
-	                                        </a>
-	                                    </div>
-	                                </td>
-	                            </tr>
-	                        </tbody>
-	                    </table>
+    <section class="section publications" id="publications">
+      <div class="section-heading publications-heading"><p class="eyebrow">Selected publications</p></div>
 
-                    
-	                    <table
-	                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Projects</heading>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+      <div class="category-columns">
 
+      <div class="pub-group" id="locomotion">
+        <div class="group-title"><span>01</span><div><h3>Locomotion</h3><p>Robust and agile mobility across challenging terrain.</p></div></div>
+        <div class="paper-list">
+          <article class="paper"><img src="pubs/2025.VBCOM/vbcom.webp" alt="VB-Com project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge accepted">ICRA 2026</span></div><h4>VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception</h4><p class="authors"><b>Junli Ren</b>, Tao Huang, Huayi Wang, Zirui Wang, Qingwei Ben, Junfeng Long, Yanchao Yang, Jiangmiao Pang†, Ping Luo†</p><p class="summary">A composite framework that switches between vision and blind policies under perceptual deficiency.</p><div class="paper-links"><a href="https://renjunli99.github.io/vbcom.github.io/">Project</a><a href="https://arxiv.org/abs/2502.14814">Paper</a><a href="https://youtu.be/f9iUE3v7I-8">Video</a><a href="pubs/2025.VBCOM/bibtex.txt">BibTeX</a></div></div></article>
+          <article class="paper spotlight"><img src="pubs/2025.Beamdojo/beamdojo.webp" alt="BeamDojo project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge major">RSS 2025</span></div><h4>BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds</h4><p class="authors">Huayi Wang, Zirui Wang, <b>Junli Ren</b>, Qingwei Ben, Tao Huang, Weinan Zhang, Jiangmiao Pang†</p><p class="summary">Agile real-world locomotion with precise foot placement on sparse footholds.</p><div class="paper-links"><a href="https://why618188.github.io/beamdojo/">Project</a><a href="https://arxiv.org/abs/2502.10363">Paper</a><a href="https://youtu.be/ZiiIZaXXkKE">Video</a><a href="pubs/2025.Beamdojo/bibtex.txt">BibTeX</a></div></div></article>
+          <article class="paper spotlight"><img src="pubs/2025.HOST/host.webp" alt="HoST project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge major">RSS 2025</span><span class="badge award">Best Systems Paper Finalist</span></div><h4>Learning Humanoid Standing-up Control across Diverse Postures</h4><p class="authors">Tao Huang, <b>Junli Ren</b>, Huayi Wang, Zirui Wang, Qingwei Ben, Muning Wen, Xiao Chen, Jianan Li, Jiangmiao Pang†</p><p class="summary">HoST learns smooth, robust standing-up control from scratch across diverse real-world postures.</p><div class="paper-links"><a href="https://taohuang13.github.io/humanoid-standingup.github.io/">Project</a><a href="https://arxiv.org/abs/2502.08378">Paper</a><a href="https://youtu.be/Yruh-3CFwE4">Video</a><a href="https://github.com/InternRobotics/HoST">Code</a><a href="pubs/2025.HOST/bibtex.txt">BibTeX</a></div></div></article>
+          <article class="paper"><img src="pubs/2024.PIM/pim.webp" alt="PIM project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge accepted">ICRA 2025</span></div><h4>Learning Humanoid Locomotion with Perceptive Internal Model</h4><p class="authors">Junfeng Long*, <b>Junli Ren*</b>, Moji Shi*, Zirui Wang, Tao Huang, Ping Luo, Jiangmiao Pang†</p><p class="summary">Perceptive internal models estimate environmental disturbances for agile, robust humanoid locomotion.</p><div class="paper-links"><a href="https://junfeng-long.github.io/PIM/">Project</a><a href="https://arxiv.org/abs/2411.14386">Paper</a><a href="https://github.com/OpenRobotLab/HIMLoco">Code</a><a href="pubs/2024.PIM/bibtex.txt">BibTeX</a></div></div></article>
+        </div>
+      </div>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <video autoplay muted loop playsinline preload="metadata" style="width:100%;max-width:100%;position:absolute;top:0%;left:0%;">
-                                            <source src="pubs/2026.smash/smash.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision</papertitle>
-                                    <br>
-                                    <br>
-                                    <strong>Junli Ren<sup>†,*</sup></strong>, Yinghui Li<sup>†,*</sup>, Kai Zhang<sup>*</sup>, Penglin Fu<sup>*</sup>, Haoran Jiang, Yixuan Pan, Guangjun Zeng, Tao Huang, Weizhong Guo, Peng Lu, Tianyu Li, Jingbo Wang, Li Chen, Hongyang Li, Ping Luo<sup>‡</sup>
-                                    <br>
-                                    <br>
-                                    <em> Preprint </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://mmlab.hk/Smash/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2604.01158" target="_blank">[Paper]</a>
-                                    <a href="https://mmlab.hk/Smash/" target="_blank">[Video]</a>
-                                    <br>
-                                    <p> The first ego-centric humanoid table tennis player, as well as agile smash behaviors. </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+      <div class="pub-group" id="navigation">
+        <div class="group-title"><span>02</span><div><h3>Navigation</h3><p>Terrain-aware planning and closed-loop navigation.</p></div></div>
+        <div class="paper-list"><article class="paper"><img src="pubs/2024.TOP-Nav/topnav.webp" alt="TOP-Nav project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge accepted">CoRL 2024</span></div><h4>TOP-Nav: Legged Navigation Integrating Terrain, Obstacle and Proprioception Estimation</h4><p class="authors"><b>Junli Ren*</b>, Yikai Liu*, Yingru Dai, Junfeng Long, Guijin Wang†</p><p class="summary">A legged navigation framework combining terrain awareness, obstacle avoidance, and closed-loop proprioception.</p><div class="paper-links"><a href="https://top-nav-legged.github.io/TOP-Nav-Legged-page/">Project</a><a href="https://arxiv.org/abs/2404.15256">Paper</a><a href="pubs/2024.TOP-Nav/bibtex.txt">BibTeX</a></div></div></article></div>
+      </div>
 
+      <div class="pub-group accent-group" id="sports">
+        <div class="group-title"><span>03</span><div><h3>High-dynamic whole-body sports</h3><p>Fast, expressive interaction that couples perception with full-body control.</p></div></div>
+        <div class="paper-list">
+          <article class="paper spotlight"><img src="pubs/2026.smash/smash-action.webp" alt="SMASH humanoid outdoor table tennis" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge major">IEEE T-RO</span></div><h4>SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision</h4><p class="authors"><b>Junli Ren†,*</b>, Yinghui Li†,*, Kai Zhang*, Penglin Fu*, Haoran Jiang, Yixuan Pan, Guangjun Zeng, Tao Huang, Weizhong Guo, Peng Lu, Tianyu Li, Jingbo Wang, Li Chen, Hongyang Li, Ping Luo†</p><p class="summary">Scalable whole-body skill learning and onboard egocentric vision for agile humanoid table tennis.</p><div class="paper-links"><a href="https://mmlab.hk/Smash/">Project</a><a href="https://arxiv.org/abs/2604.01158">Paper</a><a href="https://mmlab.hk/Smash/">Video</a><a href="pubs/2026.smash/bibtex.txt">BibTeX</a></div></div></article>
+          <article class="paper"><img src="pubs/2025.goalkeeper/gk.webp" alt="Humanoid Goalkeeper project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge preprint">Preprint</span></div><h4>Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints</h4><p class="authors"><b>Junli Ren*</b>, Junfeng Long*, Tao Huang, Huayi Wang, Zirui Wang, Feiyu Jia, Wentao Zhang, Jingbo Wang†, Ping Luo†, Jiangmiao Pang†</p><p class="summary">A single end-to-end policy performs agile, human-like ball interception and evasive motions.</p><div class="paper-links"><a href="https://humanoid-goalkeeper.github.io/Goalkeeper/">Project</a><a href="https://arxiv.org/abs/2510.18002">Paper</a><a href="https://youtu.be/ZK0gPame19M">Video</a><a href="https://github.com/InternRobotics/Humanoid-Goalkeeper">Code</a></div></div></article>
+          <article class="paper spotlight"><img src="pubs/2025.adamimic/adamimic.webp" alt="AdaMimic project preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge major">ICRA 2026 · Oral</span></div><h4>AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking</h4><p class="authors">Tao Huang, Huayi Wang, <b>Junli Ren</b>, Kangning Yin, Zirui Wang, Xiao Chen, Feiyu Jia, Wentao Zhang, Junfeng Long, Jingbo Wang†, Jiangmiao Pang†</p><p class="summary">Adaptive motion tracking enables diverse humanoid behaviors from a single reference motion.</p><div class="paper-links"><a href="https://taohuang13.github.io/adamimic.github.io/">Project</a><a href="https://arxiv.org/abs/2510.14454">Paper</a><a href="https://youtu.be/OGDoPvs7GS0">Video</a><a href="https://github.com/InternRobotics/AdaMimic">Code</a></div></div></article>
+        </div>
+      </div>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.goalkeeper/gk.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints</papertitle>
-                                    <br>
-                                    <br>
-                                    <strong>Junli Ren*</strong>, Junfeng Long*, Tao Huang, Huayi Wang, Zirui Wang, Feiyu Jia, Wentao Zhang, Jingbo Wang†, Ping Luo†, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> Preprint </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://humanoid-goalkeeper.github.io/Goalkeeper/" target="_blank">[Project Page]</a>
-                                    <a href="https://www.arxiv.org/abs/2510.18002" target="_blank">[Paper]</a>
-                                    <a href="https://youtu.be/ZK0gPame19M" target="_blank">[Video]</a>
-                                    <a href="https://github.com/InternRobotics/Humanoid-Goalkeeper" target="_blank">[code]</a>
-                                    <br>
-                                    <p> Humanoid Goalkeeper learns a single end-to-end RL policy, executing agile, human-like motions to intercept flying balls, as well as performing tasks such as escaping a ball using jump and squat motions. </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+      <div class="pub-group" id="general">
+        <div class="group-title"><span>04</span><div><h3>General whole-body tasks</h3><p>Adaptable skills for scene interaction and contact-rich manipulation.</p></div></div>
+        <div class="paper-list">
+          <article class="paper"><img src="pubs/2026.CLIFT/clift.webp" alt="CLIFT paper preview" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge preprint">Preprint · 2026</span></div><h4>CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning</h4><p class="authors">Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, <b>Junli Ren</b>, Masayoshi Tomizuka, Peng Xu, Jinyu Xie, Thomas Tian</p><p class="summary">Closed-loop reward feedback becomes API-compatible supervised data for contact-rich humanoid specialization.</p><div class="paper-links"><a href="https://arxiv.org/abs/2607.29172">Paper</a><a href="https://arxiv.org/pdf/2607.29172">PDF</a></div></div></article>
+          <article class="paper"><img src="pubs/2025.physHSI/physhsi-method.webp" alt="PhysHSI motion, interaction and deployment framework" loading="lazy"><div class="paper-body"><div class="badges"><span class="badge preprint">Preprint</span></div><h4>PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System</h4><p class="authors">Huayi Wang*, Wentao Zhang*, Runyi Yu*, Tao Huang, <b>Junli Ren</b>, Feiyu Jia, Zirui Wang, Xiaojie Niu, Xiao Chen, Jiahe Chen, Qifeng Chen†, Jingbo Wang†, Jiangmiao Pang†</p><p class="summary">A physical-world system for diverse, natural, and autonomous humanoid-scene interaction.</p><div class="paper-links"><a href="https://why618188.github.io/physhsi/">Project</a><a href="https://arxiv.org/abs/2510.11072">Paper</a><a href="https://youtu.be/dTj6FjoQ5u0">Video</a><a href="https://github.com/InternRobotics/PhysHSI">Code</a></div></div></article>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.VBCOM/vbcom.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception</papertitle>
-                                    <br>
-                                    <br>
-                                    <strong>Junli Ren</strong>, Tao Huang, Huayi Wang, Zirui Wang, Qingwei Ben, Junfeng Long, Yanchao Yang Jiangmiao Pang†, Ping Luo†
-                                    <br>
-                                    <br>
-                                    <em> International Conference on Robotics and Automation (ICRA), 2026 </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://renjunli99.github.io/vbcom.github.io/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2502.14814" target="_blank">[Paper]</a>
-                                    <a href="https://youtu.be/f9iUE3v7I-8" target="_blank">[Video]</a>
-                                    <a href="pubs/2025.VBCOM/bibtex.txt" target="_blank">[BibTeX]</a>
-                                    <br>
-                                    <p> We propose VB-Com, a composite framework that enables humanoid robots to determine when to rely on the vision policy and when to switch to the blind policy under perceptual deficiency. </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+  <dialog class="wechat-dialog" id="wechat-dialog" aria-label="WeChat QR code">
+    <form method="dialog"><button class="dialog-close" aria-label="Close WeChat QR code">×</button></form>
+    <img src="images/Personal/wechat-qr.jpeg" alt="WeChat QR code for renjunli" width="888" height="1191">
+  </dialog>
 
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.adamimic/ada-tennis.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking</papertitle>
-                                    <br>
-                                    <br>
-                                    Tao Huang, Huayi Wang, <strong>Junli Ren</strong>, Kangning Yin, Zirui Wang, Xiao Chen, Feiyu Jia, Wentao Zhang, Junfeng Long, Jingbo Wang†, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> International Conference on Robotics and Automation (ICRA), 2026 </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://taohuang13.github.io/adamimic.github.io/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/pdf/2510.14454" target="_blank">[Paper]</a>
-                                    <a href="https://youtu.be/OGDoPvs7GS0" target="_blank">[Video]</a>
-                                    <a href="https://github.com/InternRobotics/AdaMimic" target="_blank">[code]</a>
-                                    <br>
-                                    <p>  we introduce AdaMimic, a novel motion tracking algorithm that enables adaptable humanoid control from a single reference motion.  </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.physHSI/carrybox5.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System
-                                    </papertitle>
-                                    <br>
-                                    <br>
-                                    Huayi Wang*, Wentao Zhang*, Runyi Yu*, Tao Huang, <strong>Junli Ren</strong>, Feiyu Jia, Zirui Wang,
-                                    Xiaojie Niu, Xiao Chen, Jiahe Chen, Qifeng Chen†, Jingbo Wang†, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> Preprint </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://why618188.github.io/physhsi/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2510.11072" target="_blank">[Paper]</a>
-                                    <a href="https://youtu.be/dTj6FjoQ5u0" target="_blank">[Video]</a>
-                                    <a href="https://github.com/InternRobotics/PhysHSI" target="_blank">[code]</a>
-                                    <br>
-                                    <p> We present a physical-world humanoid-scene interaction system, PhysHSI, that enables humanoids to autonomously perform diverse interaction tasks while maintaining natural and lifelike behaviors. </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.HOST/host.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>Learning Humanoid Standing-up Control across Diverse Postures</papertitle>
-                                    <br>
-                                    <br>
-                                    Tao Huang, <strong>Junli Ren</strong>, Huayi Wang, Zirui Wang, Qingwei Ben, Muning Wen, Xiao Chen, Jianan Li, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> Robotics: Science and Systems (RSS 2025) </em>
-                                    <br>
-                                    <strong style="color: #d4af37; font-size: 1.1em;">🏆 Best Paper Finalist</strong>
-                                    <br>
-                                    <br>
-                                    <a href="https://taohuang13.github.io/humanoid-standingup.github.io/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/pdf/2502.08378" target="_blank">[Paper]</a>
-                                    <a href="https://www.youtube.com/watch?v=Yruh-3CFwE4&amp;source_ve_path=OTY3MTQ" target="_blank">[Video]</a>
-                                    <a href="pubs/2025.HOST/bibtex.txt" target="_blank">[BibTeX]</a>
-                                    <br>
-                                    <p> we present HoST (Humanoid Standing-up Control), a reinforcement learning framework that learns standing-up control from scratch, enabling robust sim-to-real transfer across diverse postures.</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2025.Beamdojo/beamdojo.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds</papertitle>
-                                    <br>
-                                    <br>
-                                    Huayi Wang, Zirui Wang, <strong>Junli Ren</strong>, Qingwei Ben, Tao Huang, Weinan Zhang, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> Robotics: Science and Systems (RSS 2025) </em>
-                                    <br>
-                                    <br>
-                                    <a href="https://why618188.github.io/beamdojo/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2502.10363" target="_blank">[Paper]</a>
-                                    <a href="https://www.youtube.com/watch?v=ZiiIZaXXkKE&amp;feature=youtu.be" target="_blank">[Video]</a>
-                                    <a href="pubs/2025.Beamdojo/bibtex.txt" target="_blank">[BibTeX]</a>
-                                    <br>
-                                    <p> BeamDojo achieves efficient learning in simulation and enables agile locomotion with precise foot placement on sparse footholds in the real world, 
-                                        maintaining a high success rate even under significant external disturbances.</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2024.PIM/pim.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>Learning Humanoid Locomotion with Perceptive Internal Model</papertitle>
-                                    <br>
-                                    <br>
-                                    Junfeng Long*, <strong>Junli Ren*</strong>, Moji Shi*, Zirui Wang, Tao Huang, Ping Luo, Jiangmiao Pang†
-                                    <br>
-                                    <br>
-                                    <em> International Conference on Robotics and Automation (ICRA), 2025</em>
-                                    <br>
-                                    <br>
-                                    <a href="https://junfeng-long.github.io/PIM/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2411.14386" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/OpenRobotLab/HIMLoco" target="_blank">[Code]</a>
-                                    <a href="pubs/2024.PIM/bibtex.txt" target="_blank">[BibTeX]</a>
-                                    <br>
-                                    <p> We propose the Perceptive Intenal Model (PIM), a method to estimate environmental disturbances
-                                        with perceptive information, enabling agile and robust locomotion for various humanoid robots on various terrains.</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one" >
-                                        <img src="pubs/2024.TOP-Nav/topnavsnow.gif" style="width:100%;max-width:100%; position: absolute;top: 0%">
-                                    </div>
-                                </td>
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>TOP-Nav: Legged Navigation Integrating Terrain, Obstacle and Proprioception Estimation</papertitle>
-                                    <br>
-                                    <br>
-                                    <strong>Junli Ren*</strong>, Yikai Liu*, Yingru Dai, Junfeng Long, Guijin Wang†
-                                    <br>
-                                    <br>
-                                    <em>Conference on Robot Learning (CoRL), 2024</em>
-                                    <br>
-                                    <br>
-                                    <a href="https://top-nav-legged.github.io/TOP-Nav-Legged-page/" target="_blank">[Project Page]</a>
-                                    <a href="https://arxiv.org/abs/2404.15256" target="_blank">[Paper]</a>
-                                    <a href="https://github.com/TOP-Nav-Legged/TOP-Nav-Legged" target="_blank">[Code]</a>
-                                    <a href="pubs/2024.TOP-Nav/bibtex.txt" target="_blank">[BibTeX]</a>
-                                    <br>
-                                    <p>  We propose TOP-Nav, a novel legged navigation framework that integrates a comprehensive path planner 
-                                         with Terrain awareness, Obstacle avoidance and close-loop Proprioception.</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                        <tr>
-                          <td style="padding:0px">
-                            <br>
-                            <p style="text-align:right;font-size:normal;">
-                            Updated at April. 2026.
-                            <br>
-                            Template from <a href="https://jonbarron.info/" style="text-align:right;font-size:normal;" target="_blank">Jon Barron</a>. 
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                </td>
-            </tr>
-        </tbody>
-        
-    </table>
-
-    <!-- Cloudflare Web Analytics -->
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6e0f6ce24fb34ac28d3cd41bce7ae95f"}'></script>
-    <!-- End Cloudflare Web Analytics -->
+  <footer><p>Junli Ren · Updated August 2026</p><a href="#top">Back to top ↑</a></footer>
+  <script>
+    const wechatDialog = document.getElementById('wechat-dialog');
+    wechatDialog.addEventListener('click', (event) => {
+      if (event.target === wechatDialog) wechatDialog.close();
+    });
+  </script>
 </body>
-
 </html>
