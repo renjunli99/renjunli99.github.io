@@ -1,7 +1,7 @@
 @techreport{ren2026atlas,
   title       = {{ATLAS}: Agentic Harness for Whole-Body Intelligence from Human Video},
   author      = {Ren, Junli and Yao, Kaixiang and Long, Junfeng and Huang, Tao and Wang, Huayi and Chen, Yuxiao and
-                 Ding, Wenhao and Wang, Yan and Luo, Wenjie and Ivanovic, Boris and Luo, Ping and Tomizuka, Masayoshi and Abbeel, Pieter and
+                 Ding, Wenhao and Wang, Yan and Luo, Wenjie and Ivanovic, Boris and Tomizuka, Masayoshi and Luo, Ping and Abbeel, Pieter and
                  Pavone, Marco and Chen, Yuxin and Tian, Ran},
   institution = {UC Berkeley},
   type        = {Technical Report},
